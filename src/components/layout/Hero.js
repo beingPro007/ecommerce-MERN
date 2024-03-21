@@ -6,9 +6,10 @@ export default function Hero() {
     <section className="grid grid-cols-2">
       <div className="py-8">
         <h1 className="text-4xl font-semibold">
-          Everything is Better with Better <Span className ="text-primary"></Span>
+          Everything <br /> is Better <br />
+          with Better <span className="text-primary">Pizza</span>
         </h1>
-        <p className="m-4 text-grey-500">
+        <p className="my-6 text-sm text-grey-500">
           Pizza is the missing piece you want in your life, a simple yet
           delicious joy in the day.
         </p>
@@ -20,7 +21,7 @@ export default function Hero() {
           <button className="flex gap-2 py-2 font-semibold text-grey-500">
             Learn More
             <Right />
-            </button>
+          </button>
         </div>
       </div>
       <div className="relative">
